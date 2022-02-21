@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(195, 195, 195);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    
+    
+}
+.container{
+    
+
+    margin: auto;
+    display: flex;            
+    justify-content: center;            
+    align-items: center;
+}
+.context{
+    /*background: linear-gradient(100deg, #016b11, #008714,#00ab19,#00c41d); GREEN*/
+    background: linear-gradient(100deg, #636363, #737373,#8a8a8a,#969696);
+ 
+    width: 250px;
+    height: 700px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 20px;
+    
+    
+}
+.contents{
+    /*background: linear-gradient(100deg, #016b11, #008714,#00ab19,#00c41d); GREEN*/
+    background: linear-gradient(100deg, #969696, #b5b5b5);
+    
+    width:70%;
+    height:800px;
+    border-radius: 15px;
+    margin: 25px;     
+    float: left;
+    font-size: 20px;
+    text-align:start;
+    
+    
+  
+}
+
+.profile{
+    /*background: linear-gradient(100deg, #00c41d, #00d620,#00e622,#00f524);  GREEN*/
+    background: linear-gradient(100deg, #b5b5b5, #cccccc, #e3e3e3,#f2f2f2);
+   
+    border-radius: 15px;
+    width: 300px;
+    height: 700px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%; 
+   
+}
+.image{
+    
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10%;
+    
+    
+}
+
+/* Navbar */
+
+
+.navv {
+    
+    
+    width:auto ;
+    height: auto;
+    list-style-type: none;
+
+    margin: 0;
+    margin-top: 60%;
+    padding: 0;
+
+    overflow: hidden;
+}
+.navbar ul li a {
+    display: block;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+.navbar ul li a:hover:not(.active) {
+
+    background: linear-gradient(100deg, #e3e3e3,#f2f2f2);
+}
+
+
+
+/* resim*/
+
+
+.resim{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100px;
+    border: 5px;
+    border-width:1px;
+    border-style:double;
+    
+}
+.contact{
+    margin-top: 90%;
+    margin-left:10px;
+}
+.iletisim{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    cursor: pointer;
+}
+
+
+/*Yazılar*/
+#ilk{
+    font-size: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+#baslik{
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+#orta {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#ortaa {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#son{
+    float: right;
+    margin-right: 10%;
+}
+#c_ilk{
+    margin-left: 20%;
+    font-size: 20px;
+    text-decoration: underline;;
+}
+h1{
+    margin-left: 10%;
+    
+    
+}
+
+
+/*  Hafta CSS*/
+
+
+#hafta{
+    margin-bottom: 500px;
+    list-style-type: none;
+    margin-top: 10%;
+    font-size: 25px;
+
+}
+#hafta li a{
+    display: block;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 25px 16px;
+
+    text-decoration: none;
+}
+#hafta li a:hover:not(.active){
+    text-decoration: underline;  
+}
